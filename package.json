@@ -1,0 +1,41 @@
+{
+  "name": "audio-frequency-tempered",
+  "version": "1.0.0",
+  "description": "Distributes audio frequency data according to a logarithmic scale.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Bruno Imbrizi",
+    "url": "https://github.com/brunoimbrizi"
+  },
+  "dependencies": {
+    "audio-frequency-to-index": "^2.0.0",
+    "clamp": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "tinyify": "^3.0.0",
+    "tweakpane": "^1.5.7"
+  },
+  "scripts": {
+    "demo": "budo demo/:bundle.js --live --dir demo/",
+    "build": "browserify demo/index.js -t babelify -p tinyify -o demo/bundle.js"
+  },
+  "keywords": [
+    "audio",
+    "analyser",
+    "fft",
+    "frequency",
+    "tempered"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brunoimbrizi/audio-frequency-tempered.git"
+  },
+  "homepage": "https://github.com/brunoimbrizi/audio-frequency-tempered",
+  "bugs": {
+    "url": "https://github.com/brunoimbrizi/audio-frequency-tempered/issues"
+  }
+}
