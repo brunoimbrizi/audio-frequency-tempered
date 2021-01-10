@@ -47,7 +47,7 @@ Output:
 
 ## Demo
 
-[![demo](https://user-images.githubusercontent.com/880280/104137034-d2fb9b00-5391-11eb-90e6-3ad94b1808c4.png)(https://brunoimbrizi.github.io/audio-frequency-tempered/demo/)
+[![demo](https://user-images.githubusercontent.com/880280/104137034-d2fb9b00-5391-11eb-90e6-3ad94b1808c4.png)](https://brunoimbrizi.github.io/audio-frequency-tempered/demo/)
 
 [audio-frequency-tempered demo](https://brunoimbrizi.github.io/audio-frequency-tempered/demo/)
 
