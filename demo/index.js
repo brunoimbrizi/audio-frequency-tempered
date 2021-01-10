@@ -19,8 +19,6 @@ const setup = () => {
 		audioCtx.resume();
 		if (audio.paused) audio.play();
 		else audio.pause();
-
-		audioBars.forEach(bar => console.log(bar));
 	});
 
 	// init audio
